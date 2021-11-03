@@ -1,0 +1,30 @@
+h1{
+    color: white;
+    text-shadow: turquoise;
+    text-align: center;
+
+}
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: yellowgreen;
+    float: left;
+
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+
+div.galeria :hover{
+    border: 1px solid lightseagreen;
+    transform: rotate(-3deg);
+
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: maroon;
+    padding: 10px;
+    
+}

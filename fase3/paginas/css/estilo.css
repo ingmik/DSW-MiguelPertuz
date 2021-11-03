@@ -1,0 +1,65 @@
+nav{background-color: beige;
+font-size: medium;
+text-align: justify;}
+
+section{background-color: burlywood;
+font-size: medium;
+text-align: justify;
+grid-column: 1/3;}
+
+
+aside{background-color: cyan;
+font-size: medium;
+text-align: justify;
+color: darkred;
+grid-column: 3/4;}
+
+
+main{background-color: darksalmon;
+font-size: small;
+color: black;
+text-align: justify;}
+
+main{display: grid;
+grid-template-columns: 1fr 1fr 1fr}
+
+footer{background-color: darkgreen;
+font-size: small;
+text-align: center;
+}
+
+#menu ul {list-style: none;
+margin: 0cm;
+padding: 0cm;
+}
+
+
+
+#menu #item{
+    float: left;
+}
+
+#menu #item a{
+    background: lightgreen;
+    padding: 12px 22px;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14;
+    text-decoration: none;
+}
+
+#menu #desple{display: none;
+    position: absolute;
+    min-width: 220px;
+
+}
+
+#menu #item a:hover {
+    background-color: chartreuse;
+    color: crimson;
+}
+
+#menu #item:hover #desple {
+    display: block;
+}
+
