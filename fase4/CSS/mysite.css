@@ -1,0 +1,32 @@
+body{background-color: aquamarine;
+    font-size: medium;
+    text-align: justify;
+    font-style: normal;
+    color: black;
+    
+
+}
+h3{
+    color: black;
+    text-align: justify;
+    font-size: medium;
+
+}
+
+
+
+
+
+@media (max-width 720px) {
+    #intro {
+        width: 90% !important;
+    }
+}
+
+
+@media(max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center; !important
+    }
+}
